@@ -1,0 +1,54 @@
+# Build directories
+**/build/
+**/out/
+**/.cxx/
+**/cmake-build-*/
+
+# Model files (add specific model patterns if needed)
+models/*.gguf
+models/*.bin
+models/*.pt
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+.vs/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+
+# Android specific
+**/.gradle/
+**/local.properties
+**/captures/
+
+# Generated files
+**/generated/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+*.secret
